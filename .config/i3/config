@@ -301,8 +301,8 @@ exec --no-startup-id xinput --set-prop 'ELAN1010:00 04F3:3012 Touchpad' 'libinpu
 #触摸板速度
 exec --no-startup-id xinput --set-prop 'ELAN1010:00 04F3:3012 Touchpad' 'libinput Accel Speed' 0.2
 
-# load .Xresource
-exec --no-startup-id xrdb ~/.Xresources
+# load .Xresource moved to .xinitrc
+#exec --no-startup-id xrdb ~/.Xresources
 
 # disable beep
 #exec --no-startup-ip xset -b

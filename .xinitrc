@@ -12,11 +12,8 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 #export $XMODIFIERS
 
-# disable beep
-#xset -b # rmmod pcspkr #remove from kenel module
-#rmmod pcspkr
-
-#exec xrandr --output eDP1 --output HDMI1 --right-of eDP1
+#xrdb -merge ~/.Xresources
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
 # start session
 session=${1:-i3} # default session is i3
