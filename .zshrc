@@ -126,5 +126,3 @@ PERL_LOCAL_LIB_ROOT="$PERL_PATH${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}";
 PERL_MB_OPT="--install_base \"$PERL_PATH\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=$PERL_PATH"; export PERL_MM_OPT;
 
-# disable beep
-set bell-style none

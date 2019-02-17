@@ -310,6 +310,7 @@ exec --no-startup-id xrdb ~/.Xresources
 
 # white list to Floating Window  Mode
 for_window [class="electronic-wechat"] floating enable
+for_window [title="Welcome to Android Studio"] floating enable
 
 #=============== gap ============================#
 # Gaps will only work correctly if you disable window titlebars entirely
