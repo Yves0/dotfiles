@@ -1,0 +1,15 @@
+#!/bin/sh
+sleep 0.1s && i3lock -k \
+--insidecolor=00000088 \
+--insidevercolor=00000088 \
+--ringvercolor=ffffffff \
+--linecolor=00000000 \
+--separatorcolor=00000000 \
+--timecolor=ffffffff \
+--datecolor=ffffffff \
+--ringcolor=00000088 \
+--ring-width 2 \
+--indicator \
+--verifcolor=ffffffff \
+--keyhlcolor=ffffffff \
+--blur 7
