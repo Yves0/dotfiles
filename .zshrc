@@ -110,6 +110,7 @@ eval $(thefuck --alias f)
 
 # ssh
 eval `ssh-agent -s` > /dev/null 2>&1
+ssh-add ~/.ssh/github/ssh_key > /dev/null 2>&1
 
 # JDK
 export JAVA_HOME=/home/yves/work/tools/dev/jdk/jdk1.8.0_181
