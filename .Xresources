@@ -19,6 +19,8 @@ Rxvt.scrollBar_right:True
 Rxvt.scrollBar_floating: True
 Rxvt.scrollstyle: next
 Rxvt.saveLines:10000
+Rxvt.internalBorder:1
+!Rxvt.externalBorder:0
 !Rxvt.color0:black
 !Rxvt.color1:red3
 !Rxvt.color2:springgreen

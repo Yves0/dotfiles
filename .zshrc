@@ -97,6 +97,7 @@ source $ZSH/oh-my-zsh.sh
 alias p="proxychains -f ~/.config/proxychains.conf"
 alias e="exit"
 alias dotfile='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias pe="source /home/yves/.script/other/export-proxy.sh"
 
 # auto rehash
 zstyle ':completion:*' rehash true
@@ -111,6 +112,7 @@ eval $(thefuck --alias f)
 # ssh
 eval `ssh-agent -s` > /dev/null 2>&1
 ssh-add ~/.ssh/github/ssh_key > /dev/null 2>&1
+ssh-add ~/.ssh/gitlab/gitlab_global > /dev/null 2>&1
 
 # JDK
 export JAVA_HOME=/home/yves/work/tools/dev/jdk/jdk1.8.0_181
@@ -127,3 +129,5 @@ PERL_LOCAL_LIB_ROOT="$PERL_PATH${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}";
 PERL_MB_OPT="--install_base \"$PERL_PATH\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=$PERL_PATH"; export PERL_MM_OPT;
 
+#export http_proxy=http://127.0.0.1:8010
+#export https_proxy=http://127.0.0.1:8010

@@ -1,8 +1,11 @@
 [colors]
 ;background = #222
 background = #5a000000
+;background = #5a000000
+;background = #5aFFFFFF
 background-alt = #444
 foreground = #FFFFFF
+;foreground = #000000
 foreground-alt = #6CF   
 primary = #ffb52a
 secondary = #e60053

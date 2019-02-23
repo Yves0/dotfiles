@@ -311,6 +311,7 @@ exec --no-startup-id xinput --set-prop 'ELAN1010:00 04F3:3012 Touchpad' 'libinpu
 # white list to Floating Window  Mode
 for_window [class="electronic-wechat"] floating enable
 for_window [title="Welcome to Android Studio"] floating enable
+for_window [title="Android Emulator*"] floating enable
 
 #=============== gap ============================#
 # Gaps will only work correctly if you disable window titlebars entirely
