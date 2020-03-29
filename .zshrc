@@ -120,6 +120,8 @@ export PATH=$JAVA_HOME/bin:$PATH
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 # Android
+export ANDROID_SDK=/home/yves/Android/Sdk
+export PATH=$ANDROID_SDK/platform-tools:$PATH
 
 # Perl
 export PERL_PATH=/home/yves/.script/perl5
